@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <style>
+		body { background: #2980b9; } /* fallback for old browsers */
+  body {background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);}  /* Chrome 10-25, Safari 5.1-6 */
+  body {background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);} /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	</style>
+            
+</head>
+<body>
+	<nav>
+		<div class="nav-wrapper" style="background-color: #1a237e;">
+		  <a href="#" class="brand-logo center">Weather APP <i class="fa fa-snowflake-o" aria-hidden="true"></i></a>
+		</div>
+	  </nav>
+<!-- <form action ="/" method="post">
+	<label for="cityInput">City Name:</label>
+	<input id="cityInput" type="text" name="cityName">
+	<button type="submit">Check</button>
+</form> -->
+
+<div class="row" style = "font-size: 50px; color: black;">
+    <form class="col s12" action ="/" method="post">
+      <div class="row" style="text-align: center; margin-left:400px;">
+        <div class="input-field col s6">
+          
+          <input style="font-size: 30px" id="cityInput" type="text"  name="cityName" class="validate">
+          <label for="cityInput" style="color: black;font-size: 30px;">City Location</label>
+		  <button class="btn waves-effect waves-light" type="submit"  name="action"
+		 style="font-size: 20px;" 
+		  >Submit
+			<i class="material-icons right">send</i>
+		  </button>
+        </div>
+        
+    </form>
+  </div>
+
+<script src="https://use.fontawesome.com/0f5e47a966.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+<nav>
+    <div class="nav-wrapper" style="background-color: #0d47a1;">
+      <a href="/" class="brand-logo center">Weather APP <i class="fa fa-snowflake-o" aria-hidden="true"></i></a>
+    </div>
+  </nav>
+
+  
+<h2 style="text-align: center; ">Temperature in <%= query %> is <%= date %>°C.
+</h2>
+<h3 style="text-align: center; ">Weather is currently <%= description %> </h3>
+<div style="text-align: center; font: 50px;">
+    <img src= "<%= imgURL %>" >
+</div>
+
+<%- include('partials/footer') %>
